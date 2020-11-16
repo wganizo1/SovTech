@@ -75,14 +75,14 @@ public class Categories extends AppCompatActivity {
                             categoriesAdapter();
                         } catch (JSONException e) {
                             e.printStackTrace();
-                            show_toast(e.toString());
+                            show_toast(getString(R.string.comm_error));
                         }
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        show_toast(getString(R.string.comm_error)+error);
+                        show_toast(getString(R.string.comm_error));
                         loading.dismiss();
                     }
                 });
