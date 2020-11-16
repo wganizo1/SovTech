@@ -7,4 +7,5 @@
     <string name="please_wait">Please wait...</string>
     <string name="comm_error">COMMUNICATION ERROR!!!</string>
     <string name="created_title">Created: %s</string>
+    <string name="no_internet">No Internet Access</string>
 </resources>

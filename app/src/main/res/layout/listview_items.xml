@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/listview_images"
-        android:layout_width="wrap_content"
+        android:layout_width="@dimen/eighty"
         android:padding="@dimen/ten"
-        android:layout_height="wrap_content"
+        android:layout_height="@dimen/eighty"
         android:src="@mipmap/ic_launcher"/>
 
         <TextView
@@ -20,5 +20,6 @@
             android:padding="@dimen/ten"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"/>
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp"/>
 </LinearLayout>
