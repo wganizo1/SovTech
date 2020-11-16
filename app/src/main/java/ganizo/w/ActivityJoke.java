@@ -26,7 +26,7 @@ import java.util.List;
 
 public class ActivityJoke extends AppCompatActivity {
     private ProgressDialog loading;
-    final String URL_GET_DATA = "https://api.chucknorris.io/jokes/random?category=";
+    final String URL_GET_DATA = "https://alterbliss.co.za/sovtech.php?opt=random&category=";
     RecyclerView recyclerView;
     Adapter adapter;
     List<SovTechAPI> heroList;

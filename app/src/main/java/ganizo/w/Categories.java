@@ -33,7 +33,7 @@ import java.util.List;
 public class Categories extends AppCompatActivity {
 
     String[] categoryTitle;
-    final String URL_GET_DATA = "https://api.chucknorris.io/jokes/categories";
+    final String URL_GET_DATA = "https://alterbliss.co.za/sovtech.php?opt=categories";
     private ProgressDialog loading;
     private JSONArray cats;
     private SimpleAdapter simpleAdapter;
